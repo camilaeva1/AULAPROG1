@@ -38,3 +38,11 @@ print(s)
 
 https://www.ic.unicamp.br/~raquel.cabral/pdf/Aula17.pdf
 
+#Faça uma função que retorne o reverso
+
+def reverso(n):
+  inverte = str(n)
+  print(inverte[::-1]) 
+  return None
+print(reverso(123597))
+
