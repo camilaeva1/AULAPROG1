@@ -29,3 +29,12 @@ def soma(n1, n2 = 5):
   return n1+n2
 s = soma(n2=10, n1 = 3)
 print(s)
+
+def soma(n1, n2 = 5):
+  return n1+n2
+s = soma(n2=10, n1 = 3)
+print(s)
+
+
+https://www.ic.unicamp.br/~raquel.cabral/pdf/Aula17.pdf
+
