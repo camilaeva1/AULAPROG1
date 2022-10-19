@@ -11,3 +11,17 @@ def imprime(num):
 q = quadrado(5)
 print(q)
 print(lerNumero())
+
+
+def imprimecaixa(numero):
+  tamanho = len(str(numero))
+  for i in range(12+tamanho):
+    print('+', end='')
+  print()  
+  print('| Número: ', numero, '|')
+  for i in range(12 + tamanho):
+    print('+', end='')
+  print()
+imprimecaixa(10)
+imprimecaixa(12345)
+    
