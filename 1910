@@ -25,3 +25,7 @@ def imprimecaixa(numero):
 imprimecaixa(10)
 imprimecaixa(12345)
     
+def soma(n1, n2 = 5):
+  return n1+n2
+s = soma(n2=10, n1 = 3)
+print(s)
