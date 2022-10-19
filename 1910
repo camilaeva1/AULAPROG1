@@ -1,0 +1,13 @@
+#Parâmetros são variáveis
+
+def quadrado(x):
+  return x*x 
+def lerNumero():
+  numero = input("digite um número inteiro: ")
+  return int(numero)
+def imprime(num):
+  print("Número: ", num)
+
+q = quadrado(5)
+print(q)
+print(lerNumero())
